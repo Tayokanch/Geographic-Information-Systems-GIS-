@@ -1,0 +1,825 @@
+<!DOCTYPE qgis-layer-definition>
+<qlr>
+  <layer-tree-group expanded="1" name="" checked="Qt::Checked" groupLayer="">
+    <customproperties>
+      <Option/>
+    </customproperties>
+    <layer-tree-layer providerKey="ogr" legend_split_behavior="0" expanded="1" id="2015_Street_Tree_Census___Tree_Data_20260328_85df02a0_d45f_4848_86a7_24e4110e73db" name="2015_Street_Tree_Census_-_Tree_Data_20260328" checked="Qt::Checked" legend_exp="" source="./2015_Street_Tree_Census_-_Tree_Data_20260328.csv|option:X_POSSIBLE_NAMES=longitude|option:Y_POSSIBLE_NAMES=latitude" patch_size="-1,-1">
+      <customproperties>
+        <Option/>
+      </customproperties>
+    </layer-tree-layer>
+  </layer-tree-group>
+  <maplayers>
+    <maplayer geometry="Point" simplifyMaxScale="1" refreshOnNotifyMessage="" labelsEnabled="0" styleCategories="AllStyleCategories" symbologyReferenceScale="-1" simplifyDrawingTol="1" type="vector" simplifyAlgorithm="0" maxScale="0" hasScaleBasedVisibilityFlag="0" autoRefreshMode="Disabled" simplifyLocal="1" minScale="100000000" legendPlaceholderImage="" autoRefreshTime="0" readOnly="0" refreshOnNotifyEnabled="0" wkbType="Point" simplifyDrawingHints="1">
+      <extent>
+        <xmin>-74.01836049000000628</xmin>
+        <ymin>40.70178954000000004</ymin>
+        <xmax>-73.91120168999999862</xmax>
+        <ymax>40.87305363000000114</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>-74.01836049000000628</xmin>
+        <ymin>40.70178954000000004</ymin>
+        <xmax>-73.91120168999999862</xmax>
+        <ymax>40.87305363000000114</ymax>
+      </wgs84extent>
+      <id>2015_Street_Tree_Census___Tree_Data_20260328_85df02a0_d45f_4848_86a7_24e4110e73db</id>
+      <datasource>./2015_Street_Tree_Census_-_Tree_Data_20260328.csv|option:X_POSSIBLE_NAMES=longitude|option:Y_POSSIBLE_NAMES=latitude</datasource>
+      <layername>2015_Street_Tree_Census_-_Tree_Data_20260328</layername>
+      <srs>
+        <spatialrefsys nativeFormat="Wkt">
+          <wkt></wkt>
+          <proj4></proj4>
+          <srsid>0</srsid>
+          <srid>0</srid>
+          <authid></authid>
+          <description></description>
+          <projectionacronym></projectionacronym>
+          <ellipsoidacronym></ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <dates/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys nativeFormat="Wkt">
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+        <Private>0</Private>
+      </flags>
+      <temporal fixedDuration="0" accumulate="0" durationField="" startField="" startExpression="" durationUnit="min" endExpression="" mode="0" endField="" enabled="0" limitMode="0">
+        <fixedRange>
+          <start></start>
+          <end></end>
+        </fixedRange>
+      </temporal>
+      <elevation showMarkerSymbolInSurfacePlots="0" binding="Centroid" zscale="1" clamping="Terrain" extrusion="0" zoffset="0" type="IndividualFeatures" extrusionEnabled="0" customToleranceEnabled="0" symbology="Line" respectLayerSymbol="1">
+        <data-defined-properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""/>
+            <Option name="properties"/>
+            <Option name="type" type="QString" value="collection"/>
+          </Option>
+        </data-defined-properties>
+        <profileLineSymbol>
+          <symbol alpha="1" is_animated="0" force_rhr="0" clip_to_extent="1" name="" frame_rate="10" type="line">
+            <data_defined_properties>
+              <Option type="Map">
+                <Option name="name" type="QString" value=""/>
+                <Option name="properties"/>
+                <Option name="type" type="QString" value="collection"/>
+              </Option>
+            </data_defined_properties>
+            <layer class="SimpleLine" id="{3b70674c-70ba-4be6-b71e-23e513c5c5a4}" pass="0" enabled="1" locked="0">
+              <Option type="Map">
+                <Option name="align_dash_pattern" type="QString" value="0"/>
+                <Option name="capstyle" type="QString" value="square"/>
+                <Option name="customdash" type="QString" value="5;2"/>
+                <Option name="customdash_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                <Option name="customdash_unit" type="QString" value="MM"/>
+                <Option name="dash_pattern_offset" type="QString" value="0"/>
+                <Option name="dash_pattern_offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                <Option name="dash_pattern_offset_unit" type="QString" value="MM"/>
+                <Option name="draw_inside_polygon" type="QString" value="0"/>
+                <Option name="joinstyle" type="QString" value="bevel"/>
+                <Option name="line_color" type="QString" value="114,155,111,255,rgb:0.4470588,0.6078431,0.4352941,1"/>
+                <Option name="line_style" type="QString" value="solid"/>
+                <Option name="line_width" type="QString" value="0.6"/>
+                <Option name="line_width_unit" type="QString" value="MM"/>
+                <Option name="offset" type="QString" value="0"/>
+                <Option name="offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                <Option name="offset_unit" type="QString" value="MM"/>
+                <Option name="ring_filter" type="QString" value="0"/>
+                <Option name="trim_distance_end" type="QString" value="0"/>
+                <Option name="trim_distance_end_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                <Option name="trim_distance_end_unit" type="QString" value="MM"/>
+                <Option name="trim_distance_start" type="QString" value="0"/>
+                <Option name="trim_distance_start_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                <Option name="trim_distance_start_unit" type="QString" value="MM"/>
+                <Option name="tweak_dash_pattern_on_corners" type="QString" value="0"/>
+                <Option name="use_custom_dash" type="QString" value="0"/>
+                <Option name="width_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+              </Option>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" type="QString" value=""/>
+                  <Option name="properties"/>
+                  <Option name="type" type="QString" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </profileLineSymbol>
+        <profileFillSymbol>
+          <symbol alpha="1" is_animated="0" force_rhr="0" clip_to_extent="1" name="" frame_rate="10" type="fill">
+            <data_defined_properties>
+              <Option type="Map">
+                <Option name="name" type="QString" value=""/>
+                <Option name="properties"/>
+                <Option name="type" type="QString" value="collection"/>
+              </Option>
+            </data_defined_properties>
+            <layer class="SimpleFill" id="{4a04e707-d3fb-4ae7-8011-bc132c1f601c}" pass="0" enabled="1" locked="0">
+              <Option type="Map">
+                <Option name="border_width_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                <Option name="color" type="QString" value="114,155,111,255,rgb:0.4470588,0.6078431,0.4352941,1"/>
+                <Option name="joinstyle" type="QString" value="bevel"/>
+                <Option name="offset" type="QString" value="0,0"/>
+                <Option name="offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                <Option name="offset_unit" type="QString" value="MM"/>
+                <Option name="outline_color" type="QString" value="81,111,79,255,rgb:0.3193256,0.434165,0.3109178,1"/>
+                <Option name="outline_style" type="QString" value="solid"/>
+                <Option name="outline_width" type="QString" value="0.2"/>
+                <Option name="outline_width_unit" type="QString" value="MM"/>
+                <Option name="style" type="QString" value="solid"/>
+              </Option>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" type="QString" value=""/>
+                  <Option name="properties"/>
+                  <Option name="type" type="QString" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </profileFillSymbol>
+        <profileMarkerSymbol>
+          <symbol alpha="1" is_animated="0" force_rhr="0" clip_to_extent="1" name="" frame_rate="10" type="marker">
+            <data_defined_properties>
+              <Option type="Map">
+                <Option name="name" type="QString" value=""/>
+                <Option name="properties"/>
+                <Option name="type" type="QString" value="collection"/>
+              </Option>
+            </data_defined_properties>
+            <layer class="SimpleMarker" id="{1dfbaf27-4916-4137-9b7d-d32f4dda34c7}" pass="0" enabled="1" locked="0">
+              <Option type="Map">
+                <Option name="angle" type="QString" value="0"/>
+                <Option name="cap_style" type="QString" value="square"/>
+                <Option name="color" type="QString" value="114,155,111,255,rgb:0.4470588,0.6078431,0.4352941,1"/>
+                <Option name="horizontal_anchor_point" type="QString" value="1"/>
+                <Option name="joinstyle" type="QString" value="bevel"/>
+                <Option name="name" type="QString" value="diamond"/>
+                <Option name="offset" type="QString" value="0,0"/>
+                <Option name="offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                <Option name="offset_unit" type="QString" value="MM"/>
+                <Option name="outline_color" type="QString" value="81,111,79,255,rgb:0.3193256,0.434165,0.3109178,1"/>
+                <Option name="outline_style" type="QString" value="solid"/>
+                <Option name="outline_width" type="QString" value="0.2"/>
+                <Option name="outline_width_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                <Option name="outline_width_unit" type="QString" value="MM"/>
+                <Option name="scale_method" type="QString" value="diameter"/>
+                <Option name="size" type="QString" value="3"/>
+                <Option name="size_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                <Option name="size_unit" type="QString" value="MM"/>
+                <Option name="vertical_anchor_point" type="QString" value="1"/>
+              </Option>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" type="QString" value=""/>
+                  <Option name="properties"/>
+                  <Option name="type" type="QString" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </profileMarkerSymbol>
+      </elevation>
+      <renderer-v2 forceraster="0" referencescale="-1" type="singleSymbol" symbollevels="0" enableorderby="0">
+        <symbols>
+          <symbol alpha="1" is_animated="0" force_rhr="0" clip_to_extent="1" name="0" frame_rate="10" type="marker">
+            <data_defined_properties>
+              <Option type="Map">
+                <Option name="name" type="QString" value=""/>
+                <Option name="properties"/>
+                <Option name="type" type="QString" value="collection"/>
+              </Option>
+            </data_defined_properties>
+            <layer class="SimpleMarker" id="{f9c5a660-d555-4ec2-ac59-8bf68d2108cc}" pass="0" enabled="1" locked="0">
+              <Option type="Map">
+                <Option name="angle" type="QString" value="0"/>
+                <Option name="cap_style" type="QString" value="square"/>
+                <Option name="color" type="QString" value="243,166,178,255,rgb:0.9529412,0.6509804,0.6980392,1"/>
+                <Option name="horizontal_anchor_point" type="QString" value="1"/>
+                <Option name="joinstyle" type="QString" value="bevel"/>
+                <Option name="name" type="QString" value="circle"/>
+                <Option name="offset" type="QString" value="0,0"/>
+                <Option name="offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                <Option name="offset_unit" type="QString" value="MM"/>
+                <Option name="outline_color" type="QString" value="35,35,35,255,rgb:0.1372549,0.1372549,0.1372549,1"/>
+                <Option name="outline_style" type="QString" value="solid"/>
+                <Option name="outline_width" type="QString" value="0"/>
+                <Option name="outline_width_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                <Option name="outline_width_unit" type="QString" value="MM"/>
+                <Option name="scale_method" type="QString" value="diameter"/>
+                <Option name="size" type="QString" value="2"/>
+                <Option name="size_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                <Option name="size_unit" type="QString" value="MM"/>
+                <Option name="vertical_anchor_point" type="QString" value="1"/>
+              </Option>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" type="QString" value=""/>
+                  <Option name="properties"/>
+                  <Option name="type" type="QString" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+        <data-defined-properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""/>
+            <Option name="properties"/>
+            <Option name="type" type="QString" value="collection"/>
+          </Option>
+        </data-defined-properties>
+      </renderer-v2>
+      <selection mode="Default">
+        <selectionColor invalid="1"/>
+      </selection>
+      <customproperties>
+        <Option/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
+        <activeChecks type="StringList">
+          <Option type="QString" value=""/>
+        </activeChecks>
+        <checkConfiguration/>
+      </geometryOptions>
+      <legend type="default-vector" showLabelLegend="0"/>
+      <referencedLayers/>
+      <referencingLayers/>
+      <fieldConfiguration>
+        <field configurationFlags="NoFlag" name="tree_id">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="block_id">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="created_at">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="tree_dbh">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="stump_diam">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="curb_loc">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="status">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="health">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="spc_latin">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="spc_common">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="steward">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="guards">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="sidewalk">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="user_type">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="problems">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="root_stone">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="root_grate">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="root_other">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="trunk_wire">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="trnk_light">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="trnk_other">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="brch_light">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="brch_shoe">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="brch_other">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="address">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="postcode">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="zip_city">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="community board">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="borocode">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="borough">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="cncldist">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="st_assem">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="st_senate">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="nta">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="nta_name">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="boro_ct">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="state">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="latitude">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="longitude">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="x_sp">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="y_sp">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="council district">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="census tract">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="bin">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="bbl">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias name="" field="tree_id" index="0"/>
+        <alias name="" field="block_id" index="1"/>
+        <alias name="" field="created_at" index="2"/>
+        <alias name="" field="tree_dbh" index="3"/>
+        <alias name="" field="stump_diam" index="4"/>
+        <alias name="" field="curb_loc" index="5"/>
+        <alias name="" field="status" index="6"/>
+        <alias name="" field="health" index="7"/>
+        <alias name="" field="spc_latin" index="8"/>
+        <alias name="" field="spc_common" index="9"/>
+        <alias name="" field="steward" index="10"/>
+        <alias name="" field="guards" index="11"/>
+        <alias name="" field="sidewalk" index="12"/>
+        <alias name="" field="user_type" index="13"/>
+        <alias name="" field="problems" index="14"/>
+        <alias name="" field="root_stone" index="15"/>
+        <alias name="" field="root_grate" index="16"/>
+        <alias name="" field="root_other" index="17"/>
+        <alias name="" field="trunk_wire" index="18"/>
+        <alias name="" field="trnk_light" index="19"/>
+        <alias name="" field="trnk_other" index="20"/>
+        <alias name="" field="brch_light" index="21"/>
+        <alias name="" field="brch_shoe" index="22"/>
+        <alias name="" field="brch_other" index="23"/>
+        <alias name="" field="address" index="24"/>
+        <alias name="" field="postcode" index="25"/>
+        <alias name="" field="zip_city" index="26"/>
+        <alias name="" field="community board" index="27"/>
+        <alias name="" field="borocode" index="28"/>
+        <alias name="" field="borough" index="29"/>
+        <alias name="" field="cncldist" index="30"/>
+        <alias name="" field="st_assem" index="31"/>
+        <alias name="" field="st_senate" index="32"/>
+        <alias name="" field="nta" index="33"/>
+        <alias name="" field="nta_name" index="34"/>
+        <alias name="" field="boro_ct" index="35"/>
+        <alias name="" field="state" index="36"/>
+        <alias name="" field="latitude" index="37"/>
+        <alias name="" field="longitude" index="38"/>
+        <alias name="" field="x_sp" index="39"/>
+        <alias name="" field="y_sp" index="40"/>
+        <alias name="" field="council district" index="41"/>
+        <alias name="" field="census tract" index="42"/>
+        <alias name="" field="bin" index="43"/>
+        <alias name="" field="bbl" index="44"/>
+      </aliases>
+      <defaults>
+        <default expression="" applyOnUpdate="0" field="tree_id"/>
+        <default expression="" applyOnUpdate="0" field="block_id"/>
+        <default expression="" applyOnUpdate="0" field="created_at"/>
+        <default expression="" applyOnUpdate="0" field="tree_dbh"/>
+        <default expression="" applyOnUpdate="0" field="stump_diam"/>
+        <default expression="" applyOnUpdate="0" field="curb_loc"/>
+        <default expression="" applyOnUpdate="0" field="status"/>
+        <default expression="" applyOnUpdate="0" field="health"/>
+        <default expression="" applyOnUpdate="0" field="spc_latin"/>
+        <default expression="" applyOnUpdate="0" field="spc_common"/>
+        <default expression="" applyOnUpdate="0" field="steward"/>
+        <default expression="" applyOnUpdate="0" field="guards"/>
+        <default expression="" applyOnUpdate="0" field="sidewalk"/>
+        <default expression="" applyOnUpdate="0" field="user_type"/>
+        <default expression="" applyOnUpdate="0" field="problems"/>
+        <default expression="" applyOnUpdate="0" field="root_stone"/>
+        <default expression="" applyOnUpdate="0" field="root_grate"/>
+        <default expression="" applyOnUpdate="0" field="root_other"/>
+        <default expression="" applyOnUpdate="0" field="trunk_wire"/>
+        <default expression="" applyOnUpdate="0" field="trnk_light"/>
+        <default expression="" applyOnUpdate="0" field="trnk_other"/>
+        <default expression="" applyOnUpdate="0" field="brch_light"/>
+        <default expression="" applyOnUpdate="0" field="brch_shoe"/>
+        <default expression="" applyOnUpdate="0" field="brch_other"/>
+        <default expression="" applyOnUpdate="0" field="address"/>
+        <default expression="" applyOnUpdate="0" field="postcode"/>
+        <default expression="" applyOnUpdate="0" field="zip_city"/>
+        <default expression="" applyOnUpdate="0" field="community board"/>
+        <default expression="" applyOnUpdate="0" field="borocode"/>
+        <default expression="" applyOnUpdate="0" field="borough"/>
+        <default expression="" applyOnUpdate="0" field="cncldist"/>
+        <default expression="" applyOnUpdate="0" field="st_assem"/>
+        <default expression="" applyOnUpdate="0" field="st_senate"/>
+        <default expression="" applyOnUpdate="0" field="nta"/>
+        <default expression="" applyOnUpdate="0" field="nta_name"/>
+        <default expression="" applyOnUpdate="0" field="boro_ct"/>
+        <default expression="" applyOnUpdate="0" field="state"/>
+        <default expression="" applyOnUpdate="0" field="latitude"/>
+        <default expression="" applyOnUpdate="0" field="longitude"/>
+        <default expression="" applyOnUpdate="0" field="x_sp"/>
+        <default expression="" applyOnUpdate="0" field="y_sp"/>
+        <default expression="" applyOnUpdate="0" field="council district"/>
+        <default expression="" applyOnUpdate="0" field="census tract"/>
+        <default expression="" applyOnUpdate="0" field="bin"/>
+        <default expression="" applyOnUpdate="0" field="bbl"/>
+      </defaults>
+      <constraints>
+        <constraint exp_strength="0" constraints="0" notnull_strength="0" field="tree_id" unique_strength="0"/>
+        <constraint exp_strength="0" constraints="0" notnull_strength="0" field="block_id" unique_strength="0"/>
+        <constraint exp_strength="0" constraints="0" notnull_strength="0" field="created_at" unique_strength="0"/>
+        <constraint exp_strength="0" constraints="0" notnull_strength="0" field="tree_dbh" unique_strength="0"/>
+        <constraint exp_strength="0" constraints="0" notnull_strength="0" field="stump_diam" unique_strength="0"/>
+        <constraint exp_strength="0" constraints="0" notnull_strength="0" field="curb_loc" unique_strength="0"/>
+        <constraint exp_strength="0" constraints="0" notnull_strength="0" field="status" unique_strength="0"/>
+        <constraint exp_strength="0" constraints="0" notnull_strength="0" field="health" unique_strength="0"/>
+        <constraint exp_strength="0" constraints="0" notnull_strength="0" field="spc_latin" unique_strength="0"/>
+        <constraint exp_strength="0" constraints="0" notnull_strength="0" field="spc_common" unique_strength="0"/>
+        <constraint exp_strength="0" constraints="0" notnull_strength="0" field="steward" unique_strength="0"/>
+        <constraint exp_strength="0" constraints="0" notnull_strength="0" field="guards" unique_strength="0"/>
+        <constraint exp_strength="0" constraints="0" notnull_strength="0" field="sidewalk" unique_strength="0"/>
+        <constraint exp_strength="0" constraints="0" notnull_strength="0" field="user_type" unique_strength="0"/>
+        <constraint exp_strength="0" constraints="0" notnull_strength="0" field="problems" unique_strength="0"/>
+        <constraint exp_strength="0" constraints="0" notnull_strength="0" field="root_stone" unique_strength="0"/>
+        <constraint exp_strength="0" constraints="0" notnull_strength="0" field="root_grate" unique_strength="0"/>
+        <constraint exp_strength="0" constraints="0" notnull_strength="0" field="root_other" unique_strength="0"/>
+        <constraint exp_strength="0" constraints="0" notnull_strength="0" field="trunk_wire" unique_strength="0"/>
+        <constraint exp_strength="0" constraints="0" notnull_strength="0" field="trnk_light" unique_strength="0"/>
+        <constraint exp_strength="0" constraints="0" notnull_strength="0" field="trnk_other" unique_strength="0"/>
+        <constraint exp_strength="0" constraints="0" notnull_strength="0" field="brch_light" unique_strength="0"/>
+        <constraint exp_strength="0" constraints="0" notnull_strength="0" field="brch_shoe" unique_strength="0"/>
+        <constraint exp_strength="0" constraints="0" notnull_strength="0" field="brch_other" unique_strength="0"/>
+        <constraint exp_strength="0" constraints="0" notnull_strength="0" field="address" unique_strength="0"/>
+        <constraint exp_strength="0" constraints="0" notnull_strength="0" field="postcode" unique_strength="0"/>
+        <constraint exp_strength="0" constraints="0" notnull_strength="0" field="zip_city" unique_strength="0"/>
+        <constraint exp_strength="0" constraints="0" notnull_strength="0" field="community board" unique_strength="0"/>
+        <constraint exp_strength="0" constraints="0" notnull_strength="0" field="borocode" unique_strength="0"/>
+        <constraint exp_strength="0" constraints="0" notnull_strength="0" field="borough" unique_strength="0"/>
+        <constraint exp_strength="0" constraints="0" notnull_strength="0" field="cncldist" unique_strength="0"/>
+        <constraint exp_strength="0" constraints="0" notnull_strength="0" field="st_assem" unique_strength="0"/>
+        <constraint exp_strength="0" constraints="0" notnull_strength="0" field="st_senate" unique_strength="0"/>
+        <constraint exp_strength="0" constraints="0" notnull_strength="0" field="nta" unique_strength="0"/>
+        <constraint exp_strength="0" constraints="0" notnull_strength="0" field="nta_name" unique_strength="0"/>
+        <constraint exp_strength="0" constraints="0" notnull_strength="0" field="boro_ct" unique_strength="0"/>
+        <constraint exp_strength="0" constraints="0" notnull_strength="0" field="state" unique_strength="0"/>
+        <constraint exp_strength="0" constraints="0" notnull_strength="0" field="latitude" unique_strength="0"/>
+        <constraint exp_strength="0" constraints="0" notnull_strength="0" field="longitude" unique_strength="0"/>
+        <constraint exp_strength="0" constraints="0" notnull_strength="0" field="x_sp" unique_strength="0"/>
+        <constraint exp_strength="0" constraints="0" notnull_strength="0" field="y_sp" unique_strength="0"/>
+        <constraint exp_strength="0" constraints="0" notnull_strength="0" field="council district" unique_strength="0"/>
+        <constraint exp_strength="0" constraints="0" notnull_strength="0" field="census tract" unique_strength="0"/>
+        <constraint exp_strength="0" constraints="0" notnull_strength="0" field="bin" unique_strength="0"/>
+        <constraint exp_strength="0" constraints="0" notnull_strength="0" field="bbl" unique_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint exp="" desc="" field="tree_id"/>
+        <constraint exp="" desc="" field="block_id"/>
+        <constraint exp="" desc="" field="created_at"/>
+        <constraint exp="" desc="" field="tree_dbh"/>
+        <constraint exp="" desc="" field="stump_diam"/>
+        <constraint exp="" desc="" field="curb_loc"/>
+        <constraint exp="" desc="" field="status"/>
+        <constraint exp="" desc="" field="health"/>
+        <constraint exp="" desc="" field="spc_latin"/>
+        <constraint exp="" desc="" field="spc_common"/>
+        <constraint exp="" desc="" field="steward"/>
+        <constraint exp="" desc="" field="guards"/>
+        <constraint exp="" desc="" field="sidewalk"/>
+        <constraint exp="" desc="" field="user_type"/>
+        <constraint exp="" desc="" field="problems"/>
+        <constraint exp="" desc="" field="root_stone"/>
+        <constraint exp="" desc="" field="root_grate"/>
+        <constraint exp="" desc="" field="root_other"/>
+        <constraint exp="" desc="" field="trunk_wire"/>
+        <constraint exp="" desc="" field="trnk_light"/>
+        <constraint exp="" desc="" field="trnk_other"/>
+        <constraint exp="" desc="" field="brch_light"/>
+        <constraint exp="" desc="" field="brch_shoe"/>
+        <constraint exp="" desc="" field="brch_other"/>
+        <constraint exp="" desc="" field="address"/>
+        <constraint exp="" desc="" field="postcode"/>
+        <constraint exp="" desc="" field="zip_city"/>
+        <constraint exp="" desc="" field="community board"/>
+        <constraint exp="" desc="" field="borocode"/>
+        <constraint exp="" desc="" field="borough"/>
+        <constraint exp="" desc="" field="cncldist"/>
+        <constraint exp="" desc="" field="st_assem"/>
+        <constraint exp="" desc="" field="st_senate"/>
+        <constraint exp="" desc="" field="nta"/>
+        <constraint exp="" desc="" field="nta_name"/>
+        <constraint exp="" desc="" field="boro_ct"/>
+        <constraint exp="" desc="" field="state"/>
+        <constraint exp="" desc="" field="latitude"/>
+        <constraint exp="" desc="" field="longitude"/>
+        <constraint exp="" desc="" field="x_sp"/>
+        <constraint exp="" desc="" field="y_sp"/>
+        <constraint exp="" desc="" field="council district"/>
+        <constraint exp="" desc="" field="census tract"/>
+        <constraint exp="" desc="" field="bin"/>
+        <constraint exp="" desc="" field="bbl"/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+      </attributeactions>
+      <attributetableconfig actionWidgetStyle="dropDown" sortOrder="0" sortExpression="">
+        <columns/>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <storedexpressions/>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <reuseLastValue/>
+      <dataDefinedFieldProperties/>
+      <widgets/>
+      <previewExpression></previewExpression>
+      <mapTip enabled="1"></mapTip>
+    </maplayer>
+  </maplayers>
+</qlr>

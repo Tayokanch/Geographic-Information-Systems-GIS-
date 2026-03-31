@@ -1,0 +1,1 @@
+## Example 1: HOW MANY Squirrel were seen near a playgroud
