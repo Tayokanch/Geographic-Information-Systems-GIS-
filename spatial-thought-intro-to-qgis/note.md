@@ -1,0 +1,2 @@
+- When doing Geospatial analysis that require mathemetics, Its import to reproject the data `degree` CRS to a `meter` CRS
+- when performing analysis with 2 or more data, its import for them to be on the same CRS for accuracy 
