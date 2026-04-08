@@ -21,3 +21,4 @@ Data
 
 ## How to Query Data from OSM
 - Click to `Vector` on the Menubar, select `QuickOSM`
+- 
